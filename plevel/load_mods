@@ -1,0 +1,5 @@
+module switch intel/17.0.5.239 intel/16.0.3.210
+module unload gcc/7.2.0
+module unload cray-hdf5/1.10.0.3
+export CRAYPE_LINK_TYPE=dynamic
+ulimit -s unlimited
