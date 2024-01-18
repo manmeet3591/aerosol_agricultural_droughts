@@ -17,7 +17,7 @@ from cartopy.mpl.gridliner import LONGITUDE_FORMATTER, LATITUDE_FORMATTER
 ###############piClim-control###############################
 
 #pr
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-control/pr/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-control/pr/'
 
 file_ = data_dir+'pr_Amon_IPSL-CM6A-LR_piClim-control_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_control_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -71,7 +71,7 @@ ds_piClim_control_MPIESM_r1i1p1f1_pr = xr.open_mfdataset(file_, combine='by_coor
 file_ = data_dir+'pr_Amon_CNRM-ESM2-1_piClim-control_r1i1p1f2_gr_185001-187912.nc'
 ds_piClim_control_CNRMESM_r1i1p1f2_pr = xr.open_dataset(file_)
 #mrsos
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-control/mrsos/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-control/mrsos/'
 
 file_ = data_dir+'mrsos_Lmon_IPSL-CM6A-LR_piClim-control_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_control_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -125,7 +125,7 @@ ds_piClim_control_MPIESM_r1i1p1f1_mrsos = xr.open_mfdataset(file_, combine='by_c
 file_ = data_dir+'mrsos_Lmon_CNRM-ESM2-1_piClim-control_r1i1p1f2_gr_185001-187912.nc'
 ds_piClim_control_CNRMESM_r1i1p1f2_mrsos = xr.open_dataset(file_)
 #hfls
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-control/hfls/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-control/hfls/'
 
 file_ = data_dir+'hfls_Amon_IPSL-CM6A-LR_piClim-control_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_control_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -180,7 +180,7 @@ file_ = data_dir+'hfls_Amon_CNRM-ESM2-1_piClim-control_r1i1p1f2_gr_185001-187912
 ds_piClim_control_CNRMESM_r1i1p1f2_hfls = xr.open_dataset(file_)
 
 #hfss
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-control/hfss/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-control/hfss/'
 
 file_ = data_dir+'hfss_Amon_IPSL-CM6A-LR_piClim-control_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_control_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -234,7 +234,7 @@ ds_piClim_control_MPIESM_r1i1p1f1_hfss = xr.open_mfdataset(file_, combine='by_co
 file_ = data_dir+'hfss_Amon_CNRM-ESM2-1_piClim-control_r1i1p1f2_gr_185001-187912.nc'
 ds_piClim_control_CNRMESM_r1i1p1f2_hfss = xr.open_dataset(file_)
 #od550aer
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-control/od550aer/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-control/od550aer/'
 
 file_ = data_dir+'od550aer_AERmon_IPSL-CM6A-LR_piClim-control_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_control_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -295,7 +295,7 @@ ds_piClim_control_CNRMESM_r1i1p1f2_od550aer = xr.open_dataset(file_)
 ###############piClim-aer###############################
 
 #pr
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-aer/pr/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-aer/pr/'
 
 file_ = data_dir+'pr_Amon_IPSL-CM6A-LR_piClim-aer_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_aer_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -350,7 +350,7 @@ file_ = data_dir+'pr_Amon_CNRM-ESM2-1_piClim-aer_r1i1p1f2_gr_185001-187912.nc'
 ds_piClim_aer_CNRMESM_r1i1p1f2_pr = xr.open_dataset(file_)
 
 #mrsos
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-aer/mrsos/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-aer/mrsos/'
 
 file_ = data_dir+'mrsos_Lmon_IPSL-CM6A-LR_piClim-aer_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_aer_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -405,7 +405,7 @@ file_ = data_dir+'mrsos_Lmon_CNRM-ESM2-1_piClim-aer_r1i1p1f2_gr_185001-187912.nc
 ds_piClim_aer_CNRMESM_r1i1p1f2_mrsos = xr.open_dataset(file_)
 
 #hfls
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-aer/hfls/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-aer/hfls/'
 
 file_ = data_dir+'hfls_Amon_IPSL-CM6A-LR_piClim-aer_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_aer_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -460,7 +460,7 @@ file_ = data_dir+'hfls_Amon_CNRM-ESM2-1_piClim-aer_r1i1p1f2_gr_185001-187912.nc'
 ds_piClim_aer_CNRMESM_r1i1p1f2_hfls = xr.open_dataset(file_)
 
 #hfss
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-aer/hfss/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-aer/hfss/'
 
 file_ = data_dir+'hfss_Amon_IPSL-CM6A-LR_piClim-aer_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_aer_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -515,7 +515,7 @@ file_ = data_dir+'hfss_Amon_CNRM-ESM2-1_piClim-aer_r1i1p1f2_gr_185001-187912.nc'
 ds_piClim_aer_CNRMESM_r1i1p1f2_hfss = xr.open_dataset(file_)
 
 #od550aer
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-aer/od550aer/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-aer/od550aer/'
 
 file_ = data_dir+'od550aer_AERmon_IPSL-CM6A-LR_piClim-aer_r1i1p1f1_gr_201401-204312.nc'
 #ds_piClim_aer_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -573,7 +573,7 @@ ds_piClim_aer_CNRMESM_r1i1p1f2_od550aer = xr.open_dataset(file_)
 ###############piClim-2xdust###############################
 
 #pr
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-2xdust/pr/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-2xdust/pr/'
 
 #file_ = data_dir+'pr_Amon_IPSL-CM6A-LR_piClim-2xdust_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_2xdust_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -628,7 +628,7 @@ file_ = data_dir+'pr_Amon_CNRM-ESM2-1_piClim-2xdust_r1i1p1f2_gr_185001-187912.nc
 ds_piClim_2xdust_CNRMESM_r1i1p1f2_pr = xr.open_dataset(file_)
 
 #mrsos
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-2xdust/mrsos/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-2xdust/mrsos/'
 
 #file_ = data_dir+'mrsos_Lmon_IPSL-CM6A-LR_piClim-2xdust_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_2xdust_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -683,7 +683,7 @@ file_ = data_dir+'mrsos_Lmon_CNRM-ESM2-1_piClim-2xdust_r1i1p1f2_gr_185001-187912
 ds_piClim_2xdust_CNRMESM_r1i1p1f2_mrsos = xr.open_dataset(file_)
 
 #hfls
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-2xdust/hfls/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-2xdust/hfls/'
 
 #file_ = data_dir+'hfls_Amon_IPSL-CM6A-LR_piClim-2xdust_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_2xdust_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -738,7 +738,7 @@ file_ = data_dir+'hfls_Amon_CNRM-ESM2-1_piClim-2xdust_r1i1p1f2_gr_185001-187912.
 ds_piClim_2xdust_CNRMESM_r1i1p1f2_hfls = xr.open_dataset(file_)
 
 #hfss
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-2xdust/hfss/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-2xdust/hfss/'
 
 #file_ = data_dir+'hfss_Amon_IPSL-CM6A-LR_piClim-2xdust_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_2xdust_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -793,7 +793,7 @@ file_ = data_dir+'hfss_Amon_CNRM-ESM2-1_piClim-2xdust_r1i1p1f2_gr_185001-187912.
 ds_piClim_2xdust_CNRMESM_r1i1p1f2_hfss = xr.open_dataset(file_)
 
 #od550aer
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-2xdust/od550aer/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-2xdust/od550aer/'
 
 #file_ = data_dir+'od550aer_AERmon_IPSL-CM6A-LR_piClim-2xdust_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_2xdust_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -851,7 +851,7 @@ ds_piClim_2xdust_CNRMESM_r1i1p1f2_od550aer = xr.open_dataset(file_)
 ###############piClim-NTCF###############################
 
 #pr
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-NTCF/pr/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-NTCF/pr/'
 
 #file_ = data_dir+'pr_Amon_IPSL-CM6A-LR_piClim-NTCF_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_NTCF_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -903,7 +903,7 @@ ds_piClim_NTCF_UKESM_r1i1p1f4_pr = xr.open_dataset(file_)
 #ds_piClim_NTCF_MPIESM_r1i1p1f1_pr = xr.open_mfdataset(file_, combine='by_coords')
 
 #mrsos
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-NTCF/mrsos/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-NTCF/mrsos/'
 
 #file_ = data_dir+'mrsos_Lmon_IPSL-CM6A-LR_piClim-NTCF_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_NTCF_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -955,7 +955,7 @@ ds_piClim_NTCF_UKESM_r1i1p1f4_mrsos = xr.open_dataset(file_)
 #ds_piClim_NTCF_MPIESM_r1i1p1f1_mrsos = xr.open_mfdataset(file_, combine='by_coords')
 
 #hfls
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-NTCF/hfls/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-NTCF/hfls/'
 
 #file_ = data_dir+'hfls_Amon_IPSL-CM6A-LR_piClim-NTCF_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_NTCF_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -1007,7 +1007,7 @@ ds_piClim_NTCF_UKESM_r1i1p1f4_hfls = xr.open_dataset(file_)
 #ds_piClim_NTCF_MPIESM_r1i1p1f1_hfls = xr.open_mfdataset(file_, combine='by_coords')
 
 #hfss
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-NTCF/hfss/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-NTCF/hfss/'
 
 #file_ = data_dir+'hfss_Amon_IPSL-CM6A-LR_piClim-NTCF_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_NTCF_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
@@ -1059,7 +1059,7 @@ ds_piClim_NTCF_UKESM_r1i1p1f4_hfss = xr.open_dataset(file_)
 #ds_piClim_NTCF_MPIESM_r1i1p1f1_hfss = xr.open_mfdataset(file_, combine='by_coords')
 
 #od550aer
-data_dir = '/lus/dal/cccr_rnd/manmeet/AI_IITM/WeatherBench/data/dataserv.ub.tum.de/AerChemMIP/piClim-NTCF/od550aer/'
+data_dir = '/content/drive/MyDrive/aerosol_land_atmosphere/piClim-NTCF/od550aer/'
 
 #file_ = data_dir+'od550aer_AERmon_IPSL-CM6A-LR_piClim-NTCF_r1i1p1f1_gr_201401-204312.nc'
 ##ds_piClim_NTCF_IPSL-CM6A-LR_r1i1p1f1 = xr.open_mfdataset(data_dir+, combine='by_coords')
